@@ -1,0 +1,28 @@
+{
+  "templateName": "SacredOS Launch Email",
+  "description": "Launch announcement for the SacredOS platform",
+  "from": {
+    "name": "SoulVault",
+    "email": "aziza@soulvault.org"
+  },
+  "to": [
+    {
+      "name": "<Recipient Name>",
+      "email": "<recipient@example.com>"
+    }
+  ],
+  "subject": "🚀 Welcome to SacredOS—Your Sovereign Launchpad",
+  "preheader": "Discover the encrypted care and ritual-powered flow of SacredOS.",
+  "html": "<!DOCTYPE html><html><head><title>SacredOS</title></head><body><h1>Welcome to SacredOS</h1></body></html>",
+  "text": "Welcome to SacredOS—Your Sovereign Launchpad. Discover the encrypted care and ritual-powered flow of SacredOS.",
+  "mergeFields": {
+    "FIRST_NAME": "<Recipient First Name>",
+    "SIGNATURE": "Aziza Okoro\nFounder, SoulVault\naziza@soulvault.org"
+  },
+  "attachments": [
+    {
+      "filename": "SacredOS_Overview.pdf",
+      "path": "https://soulvault.org/assets/SacredOS_Overview.pdf"
+    }
+  ]
+}
